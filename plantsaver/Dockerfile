@@ -5,6 +5,7 @@ RUN install_packages python3-smbus wget unzip
 RUN pip3 install --upgrade \
   pip \
   setuptools \
+  cryptography==3.4.7 \
   wheel\
   smbus2 \
   RPi.GPIO \
