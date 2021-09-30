@@ -1,4 +1,4 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%-python:3.7-buster-build
+FROM balenalib/raspberry-pi-python:3.7-buster-build
 
 RUN install_packages python3-smbus wget unzip
 
